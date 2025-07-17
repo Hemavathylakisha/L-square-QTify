@@ -4,16 +4,32 @@ import SearchIcon from '@mui/icons-material/Search';
 import IconButton from '@mui/material/IconButton';
 
 const Search = () => {
-    return (
-        <>
-            <Box component="form" sx={{width:"45%", background:"#fefefe"}}>
-               <TextField label="Search a album of your choice" className='searchbar' placeholder='search' />
-               <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
-                    <SearchIcon />
-                </IconButton>
-            </Box >
-     </>
-    )
-}
+  return (
+    <Box
+      component="form"
+      sx={{
+        display: 'flex',
+        alignItems: 'center',
+        background: '#fff',
+        borderRadius: '4px',
+        width: '300px',
+        padding: '0 8px',
+      }}
+    >
+      <TextField
+        placeholder="Search"
+        variant="outlined"
+        size="small"
+        fullWidth
+        InputProps={{
+          style: { backgroundColor: '#fff' },
+        }}
+      />
+      <IconButton type="button" aria-label="search">
+        <SearchIcon />
+      </IconButton>
+    </Box>
+  );
+};
 
 export default Search;
