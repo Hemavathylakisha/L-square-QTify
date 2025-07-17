@@ -1,6 +1,7 @@
-import Logo from './Logo';
-import Search from './Search';
-import Feedbutton from './Feedbutton'
+
+import Logo from '../Logo/Logo';
+import Search from '../Search/Search';
+import Feedbutton from '../Button/FeedButton'
 
 const NavBar = () => {
     return ( 

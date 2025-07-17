@@ -1,7 +1,8 @@
+
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import headphones from "../assets/hero_headphones.png"; // Correct path
+import headphones from "../../assets/hero_headphones.png"; // Correct path
 
 const Herosection = () => {
   return (

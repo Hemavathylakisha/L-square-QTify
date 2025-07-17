@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { Avatar, AvatarGroup, Stack } from '@mui/material';
-import logo from '../assets/logo.png'; // Adjust path as needed
+import logo from '../../assets/logo.png'; // Adjust path as needed
 
 const Logo = () => {
   return (

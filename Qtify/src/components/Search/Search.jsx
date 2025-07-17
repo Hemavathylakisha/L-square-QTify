@@ -1,3 +1,4 @@
+
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import SearchIcon from '@mui/icons-material/Search';
@@ -18,13 +19,9 @@ const Search = () => {
     >
       <TextField
         placeholder="search"
-        variant="outlined"
-        size="small"
-        fullWidth
-        InputProps={{
-          style: { backgroundColor: '#fff' },
-        }}
+        fullWidth      
       />
+      
       <IconButton type="button" aria-label="search">
         <SearchIcon />
       </IconButton>

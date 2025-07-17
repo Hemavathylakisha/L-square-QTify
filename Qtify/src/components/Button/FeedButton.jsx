@@ -1,7 +1,7 @@
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
-const Feedbutton = () => {
+const FeedButton = () => {
 
     return(
          <Stack direction="row" sx={{background:"#121212", borderRadius:"12px", height:"47px"}}>
@@ -10,4 +10,4 @@ const Feedbutton = () => {
     )
 }
 
-export default Feedbutton;
+export default FeedButton;
