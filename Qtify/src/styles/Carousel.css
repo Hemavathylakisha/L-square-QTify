@@ -1,0 +1,35 @@
+
+/* carousel.css */
+
+/* Hide default Swiper arrows if needed */
+.swiper-button-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* Custom style for Swiper navigation buttons (optional) */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff; /* or your theme color */
+  background-color: #34c94b;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10; --swiper-navigation-size: 20px !important;
+}
+
+/* Positioning the navigation buttons */
+.swiper-button-prev {
+  left: 0px;
+}
+
+.swiper-button-next {
+  right: 0px;
+}
+
+/* Optional: add spacing between slides */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
