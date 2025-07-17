@@ -17,7 +17,7 @@ const Search = () => {
       }}
     >
       <TextField
-        placeholder="Search"
+        placeholder="search"
         variant="outlined"
         size="small"
         fullWidth
