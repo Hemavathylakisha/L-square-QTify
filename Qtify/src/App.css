@@ -1,21 +1,26 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+  margin:0px;
+  padding:0px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.nav{
+background-color:#34c94b;
+padding:8px; 
+display: flex;
+justify-content: space-between;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.searchbar{
+  width: 92%;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav form.searchbar{
+    border:0px !important;
+}
+
+.nav form{border:1px solid #121212;border-radius: 4px;}
+
+.nav button{
+  color:#34c94b; margin: 7px 0px 0px 0px;
 }
 
 @keyframes logo-spin {
