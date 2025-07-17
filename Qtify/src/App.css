@@ -1,6 +1,8 @@
+
 body{
   margin:0px;
   padding:0px;
+  font-family: "Poppins" !important;
 }
 
 .nav{
@@ -20,7 +22,10 @@ nav form.searchbar{
 .nav form{border:1px solid #121212;border-radius: 4px;}
 
 .nav button{
-  color:#34c94b; margin: 7px 0px 0px 0px;
+  color:#34c94b; margin: 7px 0px 0px 0px;   font-family: "Poppins"
+}
+.nav button:hover{
+  cursor: pointer;
 }
 
 @keyframes logo-spin {

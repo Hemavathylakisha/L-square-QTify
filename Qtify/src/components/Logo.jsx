@@ -8,7 +8,7 @@ const Logo = () => {
     return ( 
    
             <Stack direction="row" spacing={2}>
-                <img alt="logo" src="src\assets\logo.png" height="40"/>               
+                <a href="#"><img alt="logo" src="src\assets\logo.png" height="40"/> </a>              
             
              <AvatarGroup total={3} sx={{ bgcolor:"#fefefe", borderRadius:"10px 10px 10px 0px", height:"38px", padding:"2px"}} spacing="small">
                 <Avatar sx={{ bgcolor: "#f011b8ff", width: 30, height: 30, marginTop : "3px" }} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
