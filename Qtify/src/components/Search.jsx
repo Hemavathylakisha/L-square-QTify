@@ -7,7 +7,7 @@ const Search = () => {
     return (
         <>
             <Box component="form" sx={{width:"45%", background:"#fefefe"}}>
-               <TextField label="Search a album of your choice" className='searchbar' />
+               <TextField label="Search a album of your choice" className='searchbar' placeholder='search' />
                <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
                     <SearchIcon />
                 </IconButton>
