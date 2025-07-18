@@ -1,16 +1,21 @@
+import React from "react";
+import styles from "./Navbar.module.css";
+import Logo from "../Logo/Logo";
+import Search from "../Search/Search";
+import Button from "../Button/Button";
 
-import Logo from '../Logo/Logo';
-import Search from '../Search/Search';
-import Feedbutton from '../Button/FeedButton'
+const Navbar = () => {
+  const handleFeedbackClick = () => {
+    window.alert("Feedback button clicked!");
+  };
 
-const NavBar = () => {
-    return ( 
-       <div className="nav"> 
-           <Logo />
-           <Search  placeholder="Search a album of your choice" />
-           <Feedbutton />     
-        </div>              
-    )
-}
+  return (
+    <nav className={styles.navbar}>
+      <Logo />
+      <Search />
+      <Button text="Give Feedback" onClick={handleFeedbackClick} />
+    </nav>
+  );
+};
 
-export default NavBar;
+export default Navbar;

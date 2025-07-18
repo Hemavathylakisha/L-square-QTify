@@ -1,30 +1,17 @@
-
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import SearchIcon from '@mui/icons-material/Search';
-import IconButton from '@mui/material/IconButton';
+import React from "react";
+import styles from "./Search.module.css";
+import SearchIcon from "@mui/icons-material/Search";
 
 const Search = () => {
   return (
-    <Box
-      component="form"
-      sx={{
-        display: 'flex',
-        alignItems: 'center',
-        background: '#fff',
-        borderRadius: '4px',
-        padding: '0 8px',
-      }}
-    >
-      <TextField
-        placeholder="search"
-        fullWidth      
+    <div className={styles.searchContainer}>
+      <input
+        type="text"
+        placeholder="Search an album of your choice"
+        className={styles.searchInput}
       />
-      
-      <IconButton type="button" aria-label="search">
-        <SearchIcon />
-      </IconButton>
-    </Box>
+      <SearchIcon className={styles.searchIcon} />
+    </div>
   );
 };
 
