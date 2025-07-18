@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Typography, Button, Grid } from "@mui/material";
 import AlbumCard from "./AlbumCard";
-import Carousel from "./Carousel";
+import Carousel from "../Carousel/Carousel";
 
 const Section = ({ title = "", data = [], isSongSection = false }) => {
   const [isCollapsed, setIsCollapsed] = useState(true);

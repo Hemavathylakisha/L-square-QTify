@@ -13,7 +13,6 @@ const Search = () => {
         alignItems: 'center',
         background: '#fff',
         borderRadius: '4px',
-        width: '300px',
         padding: '0 8px',
       }}
     >
