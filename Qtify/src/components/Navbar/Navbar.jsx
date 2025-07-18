@@ -7,7 +7,7 @@ const NavBar = () => {
     return ( 
        <div className="nav"> 
            <Logo />
-           <Search />
+           <Search  placeholder="Search a album of your choice" />
            <Feedbutton />     
         </div>              
     )
