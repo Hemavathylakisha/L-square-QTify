@@ -59,7 +59,7 @@ const Songs = () => {
               mx: 0.5,
               px: 2,
               py: 1,
-              color: "#000",
+              color: "#34c94b",
             },
             "& .Mui-selected": {
               color: "#fff",

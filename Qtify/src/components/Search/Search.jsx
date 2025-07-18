@@ -10,7 +10,7 @@ const Search = () => {
         placeholder="Search an album of your choice"
         className={styles.searchInput}
       />
-      <SearchIcon className={styles.searchIcon} />
+      <SearchIcon className={styles.searchIcon} sx={{position:"absolute",right:"0px"}} />
     </div>
   );
 };
