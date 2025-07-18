@@ -9,7 +9,7 @@
 
 .searchInput {
   width: 90%;
-  padding: 10px 16px 10px 40px;
+  padding: 10px 16px 10px 15px;
   border-radius: 8px;
   border: none;
   font-size: 14px;
@@ -18,7 +18,7 @@
 
 .searchIcon {
   position: absolute;
-  right: 0px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   color: gray;
